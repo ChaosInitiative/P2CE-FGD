@@ -5,6 +5,7 @@
 		"When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map " +
 		"will have the previous map's state copied over their state."
 
+	origin(origin) : "Origin (X Y Z)" : : "The position of this entity's center in the world."
     angles(angle) : "Pitch Yaw Roll (X Y Z)" : "0 0 0" : "This entity's orientation in the world. " +
     	"Roll is the rotation around the X axis, " +
     	"pitch is rotation around the Y axis and " +
